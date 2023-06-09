@@ -1,12 +1,22 @@
-## ML-101
+# ML-101
 
-#LINEAR_REGRESSION
-    THIS IS A SIMPLE LINEAR REGRESSION MODEL WITH MEAN SQUARED ERROR LOSS
-    TO IMPORT THIS AS A CUSTOM MODULE INTO YOUR CODE
-        - DOWNLOAD 'LINEAR_REGRESSION.py'
-        - COMMENT OUT ALL THE LINES STARTING FROM '##TESTING'
-        - ADD THE FILE LOCATION TO sys.path
-        - INVOKE 'from <filename> import *'
-        - PREPARE AND ANALYZE THE DATA
-        - TRAIN THE MODEL AS SHOWN IN THE '##TESTING' SECTION
-        - [OPTIONAL] PLOT THE DATAPOINTS AS SHOWN IN '##PLOTTING THE LINEAR FUNCTION' SECTION
+
+## LINEAR_REGRESSION
+
+This is a simple Linear Regression model with mean squared error loss.
+
+To import this as a custom module into your code:
+
+    I.    Download 'LINEAR_REGRESSION.py'
+    
+    II.   Comment out all the lines starting from '##TESTING'
+    
+    III.  Add the file location to sys.path
+    
+    IV.   Invoke 'from <filename> import *'
+    
+    V.    Prepare and analyze your data
+    
+    VI.   Train the model as shown in the '##TESTING' section
+    
+    VII.  [Optional] Plot the datapoints as shown in '##PLOTTING THE LINEAR FUNCTION' section
