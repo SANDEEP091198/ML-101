@@ -72,7 +72,7 @@ b = weights[-1]
 val = -0.25
 p = (val**3)*w[2] + (val**2)*w[1] + (val**1)*w[0] + b
 #------------------------------------------------------------------------------
-##PLOTTING THE LINEAR FUNCTION
+##PLOTTING THE POLYNOMIAL FUNCTION
 def linear_plot(X, Y):
     plt.scatter(X, Y, c = 'green')
     plt.scatter(val, p, c = 'red')
