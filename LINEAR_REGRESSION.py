@@ -27,7 +27,7 @@ class reg:
         X = np.array(X)
         Y = np.array(Y)
         
-        def cost(n):
+        def gradient(n):
             hx = self.function(X, self.x_coeff, self.constant)
             j = sum((Y-hx)**2)/(2*len(X))
             dw = -sum(np.multiply((Y-hx), X))/len(X)
@@ -43,7 +43,7 @@ class reg:
                 print('Iteration: ', n+1)
             elif (n+1) % 10 == 0:
                 print('Iteration: ', n+1)
-            dw, db = cost(n)
+            dw, db = gradient(n)
             self.x_coeff -= alpha*(dw)
             self.constant -= alpha*(db)
 
