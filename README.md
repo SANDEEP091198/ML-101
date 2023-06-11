@@ -1,6 +1,6 @@
 # ML-101
 
-The following Machine Learning models can be imported as custom modules by following the steps provided below:
+The Machine Learning models included in this repository can be imported as custom modules by following the steps provided below:
 
     I.    Download the required code file
     
